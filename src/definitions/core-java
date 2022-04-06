@@ -5,99 +5,209 @@ A. Programming language is a set of vocabulary and grammatical rules for instruc
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What are the jdk components ? define each component?
-A.
+A.Jdk components are: JRE(Java Runtime Environment)
+                      Java
+                      Javac
+                      Javadoc
+                      An archive or jar
+                      Debugger and many more.
+
+
+    JRE (Java runtime environment):It is a software platform where all the Java Source codes are executed.
+
+    Java: It is simply a loader that works for all java applications.
+    Javac: The javac specifies the java compiler to convert the source code into bytecode.
+    Javadoc:The javadoc generates documentation for the comments added in the source code.
+    Jar: The jar helps the archives to manage the jar files in the package library.
+    Debugger:The Java debugger (JDB) is a tool for Java classes to debug a program in command line.
+             It helps in detecting and fixing bugs in a Java program using Java Debug Interface (JDI).
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is an IDE?
-A.
+A. IDE or Integrated development Environment is software for building applications that combines common developer
+   tools into a single graphical user interface (GUI).
+   An IDE normally consists of:
+
+   1.Source code editor: An text editor that can assist in writing software code with features such as syntax
+   highlighting, providing language specific auto code completion and checking for bugs.
+
+   2.Local build automation:This helps in automate developers tasks like compiling computer source code into binary
+   code, packaging binary code and running automated tests.
+
+   3.Debugger:A program for testing other programs and graphically display the location of bug in an original code.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What are the IDEs available in the market to support java?
-A.
+A. There are numerous IDEs available in market for java. The list of most popular IDEs are given below:
+    1. IntelliJ idea
+    2. Eclipse
+    3. BlueJ
+    4. My eclipse
+    5. Xcode
+    6. Apache Netbeans
+    7. JCreator
+    8. (Oracle) Jdeveloper etc.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Explain the entire java life cycle.
-A.
+A.Life cycle of a java program tells us about what happens right from the point when we type a source code in a
+  text editor to the point the source code is converted to machine code.
+  There are three different stages in life cycle:
+  1.Editing the program
+  2.Compiling to sourcecode
+  3.Executing the bytecode.
+
+  java sourcecode ---------> java compiler---------->Bytecode---------->java virtual machine------->Machine code
+    sample.java                javac                sample.class              (JVM)                     0 & 1
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is class?
-A.
+A. Class is a blueprint or template from which objects are created. Class contains data types and methods.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is object?
-A.
+A. Object is an instance of a class.
+   syntax is: Class name object name = new Class name
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the entry point of an application?
-A.
+A. An application entry point identifies a resource that is an access point of an application.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Why main method is static?
-A.
+A. Main method is always static so that the compiler can call it without creating an object of the class.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Which class is the superclass of all classes in java?
-A.
+A. The class from which subclass is derived is called superclass.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is difference between path and classpath variables?
-A.
+A. Path is a set of tools used by the operating system to compile the code.
+
+   Classpath is used by the application class loader to locate and load the compiled java bytecodes stored in the
+   .class file.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between an Interface and Abstract class?
-A.
+A. Abstract class is a hybride class, can contain both abstract and non-abstract method.
+   The keyword for abstract class is extend
+   Interface means implementation hiding. Interface can only contain abstract method.
+   The keyword used for interface is implements.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Can you make an Object from an Interface and Abstract class ? how do you use interface and abstract class?
-A.
+A. No. we can not make an object of an Interface and Abstract class.
+
+   To use abstract class we must create a class that extends to the abstract class and provide implementation for
+   all abstract methods.
+   To use interface we have to create a class that implements to the interface.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Access Specifier?
-A.
+A. Access Specifiers or Access Modifiers are keywords that defines the accessibility privilege for certain java
+   elements. There are four kind of access specifier.
+   1.Public: Gives property access to all the elements from anywhere in the project.
+   2.Private: Gives property access in the class only.
+   3.Protected: Gives property access in the subclass.
+   4.Default: Gives access only in the same package.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is OOP ? Define each feature of java OOP.
-A.
+A. OOP: OOP stands for Object Oriented Programming.
+   Features of java OOP are:
+   1.Encapsulation: encapsulation means data hiding. It is a protected shield that prevent data from being accessed
+   by the code outside the shield.
+
+   2.Inheritance: It is the mechanism in java by which one class inherit the properties of another class.
+   It uses the keyword extends to inherit the property of another class.
+   Under inheritance there are:
+    Superclass:The class whose features are inherited is called superclass. Is also known as parent/base class.
+    Subclass: The class that inherit from another class.
+
+   3.Polymorphism: Polymorphism is about methods. there are two types of methods in polymorphism.
+       Overloading and Overriding.
+       Overloading: It means use the same methods name with different parameters.
+       Overriding: It means using same method name with same parameters but different body.
+
+   4.Abstraction: Data abstraction may be defined as the process of identifying only the required characteristics
+   ignoring the irrelevant details. In abstraction there are Interface and Abstract class.
+       Interface means implementation hiding. Interface can only contain abstract method.
+       The keyword used for interface is implements.
+       Abstract class is a hybride class, can contain both abstract and non-abstract method.
+       The keyword for abstract class is extend.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Java Package and which package is imported by default?
-A.
+A. Java package is a folder used for grouping of related/similar classes. It allows us to avoid naming conflicts.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is API? Name list of API that you have used so far.
-A.
+A. API stands for Application Programming Interface. It allows our applications to interact with external service
+   using simple set of commands.
+   API used so far are:Sublime text
+                       IntelliJ
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Does java support multiple inheritance?
-A.
+A. No java does not support multiple inheritance.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is method overloading and when it happens?
-A.
+A. Method overloading means use of same method with different parameters.
+   It happens when we change the number of argument or change the data type of an argument.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Explain exceptions in java and how to handle it?
-A.
+A. An exception is an event, that occurs during the execution of a program which disrupts the normal flow of
+   the program's instruction. There are two types of exceptions in java.
+   1. Runtime exception
+   2. Compile-time exception
+   Exceptions are handled using Try and Catch block or Throws keyword.
+
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is static keyword in java? How it has been used in variables, methods and classes?
-A.
+A. Static keyword is a non-access modifier. We can use it in variables and methods.
+   Static in variables- Static variables can only be used under static method.
+   Static in methods- We can only use static variables.
+   Static in class- static properties belong to the class. we don't need to create the object of the class.
+                    We can call it by using the class name.
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is final and how it has been used variables, methods and classes?
-A.
+A. Final keyword is a non-access modifier.
+   Final in variables: we can not reassign the value of the variable.
+   Final in methods: the method can not be overridden.
+   Final in class: it means the class can not be inherited.
+
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is final, finally and finalize?
-A.
+A. Final, finally and finalized are keywords.
+   Final Keyword:
+    Final in variables: we can not reassign the value of the variable.
+    Final in methods: the method can not be overridden.
+    Final in class: it means the class can not be inherited.
+
+   Finally keyword: It is associated with try and catch block.
+
+   Finalized: Finalized is a method use in java garbage collection.
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is a constructor ?
-A.
+A. A constructor is a special type of method that is use to initialize objects.
+   It automatically invoke at the time of object creation.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Can we have multiple constructors in a class?
-A.
+A. Yes, we can have both default constructor (without parameter) and parameterized constructor (with parameter)
+   in a class.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. If we don't have a constructor declared, what is called during the object creation?
@@ -105,19 +215,21 @@ A.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is "this" keyword in java ?
-A.
+A. This keyword refers to global variable in java.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is "super" keyword in java? How to use it?
-A.
+A. Super keyword refers to the super class object.
+   We use it to call any variable or method of superclass.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is JVM stand for?
-A.
+A. JVM stands for Java Virtual Machine.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Is JVM platform independent?
-A.
+A. JVM platform is independent. For every operating system separate JVM is available which is capable to read
+   .class file or bytecodes.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What version of java are you using?
@@ -125,19 +237,23 @@ A.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is JAR stand for?
-A.
+A. JAR stands for Java Archive.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between JDK and JVM?
-A.
+A. JDK is Java Development kit. It contains JRE, java compiler, a debugger and many more.
+   JVM is Java Virtual Machine and it is independent. JVM converts bytecode to machine specific code.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between JVM and JRE?
-A.
+A. JVM is Java Virtual Machine and it is independent. JVM converts bytecode to machine specific code.
+   JRE is Java Runtime Environment. It includes JVM and execute java program.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is compile time and run time?
-A.
+A. Compile time and run time both are programming terms used in software development.
+   Compile time is the time in which a source code is converted to an executable bytecode.
+   Runtime is when the executable code runs and convert it to machine specific code.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between String, StringBuffer and StringBuilder?

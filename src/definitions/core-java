@@ -219,8 +219,9 @@ A. This keyword refers to global variable in java.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is "super" keyword in java? How to use it?
-A. Super keyword refers to the super class object.
-   We use it to call any variable or method of superclass.
+A. Super keyword refers to the super class in inheritance. It can refer to super class constructor,
+   variable or method.
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is JVM stand for?
@@ -233,7 +234,7 @@ A. JVM platform is independent. For every operating system separate JVM is avail
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What version of java are you using?
-A.
+A. I am using java version 8.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is JAR stand for?
@@ -257,32 +258,38 @@ A. Compile time and run time both are programming terms used in software develop
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between String, StringBuffer and StringBuilder?
-A.
+A. String: The object of string is immutable. It means a new string is created every time we change the value of a
+           string. It is slow in performance
+   StringBuffer: the object of stringBuffer is mutable. Means any change will modify the existing sequence of
+           characters. It is faster than string.
+   StringBuilder: the object of stringBuilder is also mutable and its faster than stringBuffer.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Singleton class?
-A.
+A. In object oriented programming singleton class is a class that can have only one object at a time.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between while and do..while loop?
-A.
+A. While loop check the condition then then print.
+   Do while loop print the condition then check.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Enum?
-A.
+A. Enum is short form of enumeration. It is a data type that has a fixed set of possible values.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Iterator?
-A.
+A. Iterator are objects that can be used to loop through collections, like arraylist and hashset.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Which one will take more memory, an int or Integer?
-A.
+A. An integer object will take more memory.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is JIT stands for?
-A.
+A. JIT stands for just in time. It is a component of runtime environment that improves the performance of java
+   application by compiling bytecode to machine readable native code at run time.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Recursion?
-A.
+A. Recursion is a process in which a method calls itself continuously.

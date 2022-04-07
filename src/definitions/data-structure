@@ -1,48 +1,69 @@
 Please answer the below Data Structure Questions:
 
 Q. why do we need data structure?
-A.
+A. Data structure is useful in storing and organizing the data in an efficient manner.
+   As amount of data grows rapidly, the application becomes more complex, and following problems may arise:
+   processing speed may decrease,
+   slowing down the search process,
+   multiple request at the same time. In order to solve these problems data structure is used.
 
 ------------------------------------------------------------------------------------------------------------------------
 What are the various operations that can be performed on different Data Structures?
-A.
+A. 1.Arithmetic operator: +, -, *, /, ++, --
+   2.Comparison operator: ==, >, <, >=, <=, !=
+   3. Logical operator: &&, ||, !
+   4. Assignment operator: =, +=, -=, *=, /=, %=.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. List out the areas in which data structures are applied extensively?
-A.
+A. Data structure is applied in - Arrays.
+                                  Collections-Array list, Hashset, linked list
+                                  Map- Hashmap.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is an Array?
-A.
+A. Array is a type of variable that can hold multiple values.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between the Array and ArrayList?
-A.
+A. Array is fixed length data structure. We can not add any values in it.
+   Arraylist can be variable length. We can easily change the length the arraylist by adding more variables.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is LinkedList?
-A.
+A. LinkedList Class is a collection which can have many objects of same type. LinkedList works by creating nodes.
+   Every node has two addresses. Every address is linked to the next address. First node is called head and
+   last node is tail. LinkedList is quick.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. How is an ArrayList different from Linked List?
-A.
+A. ArrayList works like a block.Behind every arrayList there is an array. It is slow.
+   LinkedList works by creating node. LinkedList is quick.
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between the HashTable and HashMap?
-A.
+A. Hashmap is not synchronized, permits null values and it is not thread safe.
+   HashTable is synchronized, thread safe and it does not allow null.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model?
-A.
+A. RDBMS(Relational Database Management System) - data type is array.
+   Network data model - Queue
+   Hierarchical data -
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. How HashMap works in java?
-A.
+A. HashMap works as key value pair in java. Every key and value pair is called an entry.
+   A group of key value pair is entry set.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is ArrayIndexOutOfBoundsException in java? When it occurs?
-A.
+A. ArrayIndexOutOfBoundException indicates an array has been accessed with an illegal index.
+   It occurs when the index is either negative or greater than or equal to the size of an array.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What are the different ways of copying an array into another array?
-A.
+A. We can assign the value of an array to another array.
+   int[] ArrayOriginal ={10,20,30,40};
+   int[] copy = arrayOriginal.

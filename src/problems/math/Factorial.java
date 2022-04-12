@@ -9,12 +9,14 @@ public class Factorial {
      * you can use Recursion or Iteration
      *
      */
-
+    // Factorial is a function that multiplies a given number by every number below it.
     public static void main(String[] args) {
-
-        //run your code here
-
-
+        int n = 5;
+        int number = 1;
+         for(int i= 1; i<= n; i++){
+             number = number * i;
+         }
+        System.out.println(number);
     }
-
 }
+
